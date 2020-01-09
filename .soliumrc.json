@@ -1,0 +1,10 @@
+{
+  "extends": "solium:recommended",
+  "plugins": ["security"],
+  "rules": {
+    "indentation": ["error", 4],
+    "max-len": ["error", 160],
+    "security/no-suicide-or-selfdestruct": ["error"],
+    "security/no-var": ["error"]
+  }
+}

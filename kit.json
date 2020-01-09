@@ -8,7 +8,9 @@
     "buidler.config.ts",
     ".openzeppelin/project.json",
     "contracts",
-    "test"
+    "test",
+    ".soliumignore",
+    ".soliumrc.json"
   ],
   "hooks": {
     "post-unpack": "npm install && git init"

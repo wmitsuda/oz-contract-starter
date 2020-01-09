@@ -4,7 +4,8 @@
   "description": "OpenZeppelin starter kit for contract projects pre-configured with the standard tools",
   "main": "index.js",
   "scripts": {
-    "test": "buidler test"
+    "test": "buidler test",
+    "ethlint": "solium -d contracts"
   },
   "author": "Willian Mitsuda <wmitsuda@gmail.com>",
   "license": "MIT",
