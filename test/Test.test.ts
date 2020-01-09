@@ -27,8 +27,12 @@ describe("Test", function() {
     });
   });
 
-  it("should start at 42", async function() {
-    const x = await test.methods.x().call();
-    x.should.be.equals("42");
+  it("should increment correctly", async function() {
+    const before = await test.methods.x().call();
+    before.should.be.equals("42");
+
+    await test.methods.increment().send();
+    const after = await test.methods.x().call();
+    after.should.be.equals("43");
   });
 });
