@@ -3,6 +3,6 @@
   "message": "More at https://github.com/wmitsuda/oz-contract-starter",
   "files": [".gitignore", "package.json", "contracts", "test"],
   "hooks": {
-    "post-unpack": "npm install && git init && git flow init -d && npx oz init"
+    "post-unpack": "npm install && git init && git flow init -d"
   }
 }
