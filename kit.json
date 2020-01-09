@@ -10,9 +10,10 @@
     "contracts",
     "test",
     ".soliumignore",
-    ".soliumrc.json"
+    ".soliumrc.json",
+    ".env.example"
   ],
   "hooks": {
-    "post-unpack": "npm install && git init"
+    "post-unpack": "npm install && git init && mv .env.example .env"
   }
 }
