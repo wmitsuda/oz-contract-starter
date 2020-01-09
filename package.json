@@ -7,5 +7,25 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Willian Mitsuda <wmitsuda@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/buidler": "^1.0.2",
+    "@nomiclabs/buidler-ganache": "^1.0.2",
+    "@nomiclabs/buidler-truffle5": "^1.0.2",
+    "@nomiclabs/buidler-web3": "^1.0.2",
+    "@openzeppelin/cli": "^2.6.0",
+    "@openzeppelin/contracts-ethereum-package": "^2.4.0",
+    "@openzeppelin/upgrades": "^2.6.0",
+    "@truffle/hdwallet-provider": "^1.0.28",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^10.17.13",
+    "chai": "^4.2.0",
+    "dotenv": "^8.2.0",
+    "ethlint": "^1.2.5",
+    "ganache-cli": "^6.8.1",
+    "truffle": "^5.1.7",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.4",
+    "web3": "^1.2.4"
+  }
 }
