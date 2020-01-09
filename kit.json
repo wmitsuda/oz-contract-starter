@@ -1,8 +1,8 @@
 {
   "manifestVersion": "0.1.0",
   "message": "More at https://github.com/wmitsuda/oz-contract-starter",
-  "files": [".gitignore", "package.json"],
+  "files": [".gitignore", "package.json", "contracts", "test"],
   "hooks": {
-    "post-unpack": "npm install"
+    "post-unpack": "npm install && git init && git flow init -d && npx oz init"
   }
 }
