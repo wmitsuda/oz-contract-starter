@@ -111,3 +111,6 @@ temp/
 # End of https://www.gitignore.io/api/solidity
 
 .openzeppelin/.session
+build/
+cache/
+artifacts/

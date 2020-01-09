@@ -1,7 +1,14 @@
 {
   "manifestVersion": "0.1.0",
   "message": "More at https://github.com/wmitsuda/oz-contract-starter",
-  "files": [".gitignore", "package.json", "contracts", "test"],
+  "files": [
+    ".gitignore",
+    "package.json",
+    "tsconfig.json",
+    "buidler.config.ts",
+    "contracts",
+    "test"
+  ],
   "hooks": {
     "post-unpack": "npm install && git init && git flow init -d"
   }
