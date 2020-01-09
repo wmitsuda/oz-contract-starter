@@ -6,10 +6,11 @@
     "package.json",
     "tsconfig.json",
     "buidler.config.ts",
+    ".openzeppelin/project.json",
     "contracts",
     "test"
   ],
   "hooks": {
-    "post-unpack": "npm install && git init && git flow init -d"
+    "post-unpack": "npm install && git init"
   }
 }
