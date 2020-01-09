@@ -1,0 +1,11 @@
+{
+  "name": "oz-contract-starter",
+  "version": "1.0.0",
+  "description": "OpenZeppelin starter kit for contract projects pre-configured with the standard tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Willian Mitsuda <wmitsuda@gmail.com>",
+  "license": "MIT"
+}
