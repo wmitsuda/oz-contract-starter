@@ -16,6 +16,6 @@
     ".env.example"
   ],
   "hooks": {
-    "post-unpack": "npm install && git init && mv .env.example .env && npx oz compile && npm test"
+    "post-unpack": "npm install && git init && mv .env.example .env && echo '\nRun:\n\n\tnpx oz compile && npm test\n\nto certify that everything is ok before adding code.'"
   }
 }
