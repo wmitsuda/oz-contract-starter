@@ -3,6 +3,8 @@
   "message": "More at https://github.com/wmitsuda/oz-contract-starter",
   "files": [
     ".gitignore",
+    ".nvmrc",
+    ".dependabot/config.yml",
     "package.json",
     "tsconfig.json",
     "buidler.config.ts",
