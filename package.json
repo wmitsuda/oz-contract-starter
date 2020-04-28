@@ -18,7 +18,7 @@
     "@openzeppelin/contracts-ethereum-package": "^2.5.0",
     "@openzeppelin/upgrades": "^2.8.0",
     "@truffle/hdwallet-provider": "^1.0.34",
-    "@types/mocha": "^5.2.7",
+    "@types/mocha": "^7.0.2",
     "@types/node": "^10.17.13",
     "chai": "^4.2.0",
     "dotenv": "^8.2.0",
