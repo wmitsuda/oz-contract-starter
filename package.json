@@ -24,7 +24,7 @@
     "dotenv": "^8.2.0",
     "ethlint": "^1.2.5",
     "ganache-cli": "^6.9.1",
-    "truffle": "^5.1.23",
+    "truffle": "^5.1.24",
     "ts-node": "^8.9.1",
     "typescript": "^3.8.3",
     "web3": "^1.2.7"
